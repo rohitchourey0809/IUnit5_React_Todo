@@ -64,6 +64,7 @@ export const Todolist = () => {
                                             onClick={() => deleteItems(index)} className='fa fa-trash fa-lg add-btn' title='Delete Item' ></i>
                                     </button>
                                 </div>
+
                             )
                         })
                     }
@@ -76,7 +77,7 @@ export const Todolist = () => {
                 <div className="showitem">
                     <button
                         onClick={removeall} className="btn effect04" data-sm-link-text="Remove All">
-                        <span>Checklist</span></button>
+                        <span>Clear All</span></button>
                 </div>
 
             </div>
